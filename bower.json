@@ -1,6 +1,7 @@
 {
   "name": "dustjs-server-client-example",
   "dependencies": {
-    "jquery": "~2.1.0"
+    "jquery": "~2.1.0",
+    "dustjs-linkedin": "~2.3.4"
   }
 }

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A small example tp use dust.js templates for server side and client side rendering",
   "scripts": {
-    "start": "grunt compileTemplates; node app.js;"
+    "start": "npm install; bower install; grunt compileTemplates; node app.js;"
   },
   "dependencies": {
     "dustjs-linkedin": "^2.3.4",
