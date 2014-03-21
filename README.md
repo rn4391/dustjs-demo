@@ -1,9 +1,9 @@
-DustJS - Server-Side and Client-Side Rendering
+<h1>DustJS - Server-Side and Client-Side Rendering</h1>
 
 Clone the repository and run the command
  
-npm start
+<code>npm start</code>
 
 Then in your browser, access
 
-localhost:8888
+<code>localhost:8888</cod>
