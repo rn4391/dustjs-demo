@@ -1,0 +1,120 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+body {
+	background: #F1F1EF;
+	font-size: 16px;
+	font-family: "Droid Sans", sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+
+a {
+	color: #FFF;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+p {
+	margin: 20px 0;
+}
+
+
+header, footer {
+	background: #222;
+	height: 40px;
+	padding: 10px 0;
+	color: #FFF;
+	width: 100%;
+	text-align: center;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	text-align: right;
+	font-size: 13px;
+}
+
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.clear {
+	clear: both;
+	width: 100%;
+	height: 1px;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+.small-box {
+	width: 400px;
+	margin: 80px auto;
+	text-align: justify;
+}
+
+.btn {
+	background: #888;
+	padding: 10px 20px;
+	color: #FFF;
+
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.btn.btn-primary {
+	background: #30649f;
+	color: #FFF;
+}
+
+.hotel-list-item {
+	width: 100%;
+	background: #FFF;
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+.hotel-list-item:not(:first-child){
+	border-top: 0;
+}
+.hotel-name {
+	font-weight: bold;
+	font-size: 18px;
+}
+.hotel-address {
+	font-size: 13px;
+	color: #888;
+}
+
+#view-more-hotels {
+	background : #CCC;
+	padding: 10px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#view-more-hotels:hover {
+	background: #ddd;
+}
+
+.list-left {
+	width: 30%;
+}
+.list-right {
+	width: 70%;
+}
+

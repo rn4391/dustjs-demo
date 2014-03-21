@@ -1,0 +1,11 @@
+<div class="hotel-list-item">
+	<div class="pull-left list-left">
+		<img src={imageUrl} />
+	</div>
+	<div class="pull-left list-right">
+		<span class="hotel-name">{name}</span>
+		<div class="clear"></div>
+		<span class="hotel-address">{address}</span>
+	</div>
+	<div class="clear"></div>
+</div>

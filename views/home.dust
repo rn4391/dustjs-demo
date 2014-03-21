@@ -1,0 +1,14 @@
+<html>
+<head>
+	<title>Dustjs POC - Server and Client Side Rendering</title>
+	{>css/}
+	{>js/}
+</head>
+<body>
+	
+	{>header/}
+	{>homeContent/}
+	{>footer/}
+	
+</body>
+</html>

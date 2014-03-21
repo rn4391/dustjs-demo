@@ -1,0 +1,2 @@
+// header.dust
+(function(){dust.register("header",body_0);function body_0(chk,ctx){return chk.write("<header><div class=\"wrapper\">Dustjs - POC Server-Side & Client-Side Rendering</div></header>");}return body_0;})();

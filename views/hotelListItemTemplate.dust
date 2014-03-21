@@ -1,0 +1,28 @@
+<script type="text/javascript" id="hotelListContent" src="/templates/hotelListContent.js"></script>
+<script type="text/javascript" id="hotelListContent" src="/templates/hotelListItem.js"></script>
+<script>
+	$(document).ready(function(){
+		$("#view-more-hotels").on("click", function() {
+			$.ajax({
+				type: "GET",
+				url : "/api/hotels",
+				success : function(data) {
+					var obj = {"hotelData" : data.data};
+					dust.render('hotelListContent', obj,  function(err, html) {
+									if(err) {
+										console.log(err);
+										return;
+									}
+
+									$("#hotel-list").append(html);
+									$("#view-more-hotels").hide();
+									$("#view-more-hotels").off("click");
+								});
+				},
+				error : function(error) {
+					console.log(error);
+				}
+			});
+		});
+	});
+</script>

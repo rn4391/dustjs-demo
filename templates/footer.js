@@ -1,0 +1,2 @@
+// footer.dust
+(function(){dust.register("footer",body_0);function body_0(chk,ctx){return chk.write("<footer><div class=\"wrapper\"><a href=\"http://github.com/rnanwani/dustjs-demo\">View on GitHub</a></div></footer>");}return body_0;})();

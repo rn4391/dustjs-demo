@@ -1,0 +1,4 @@
+{#hotelData}
+	{>hotelListItem/}
+{/hotelData}
+				

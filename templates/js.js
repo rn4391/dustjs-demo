@@ -1,0 +1,2 @@
+// js.dust
+(function(){dust.register("js",body_0);function body_0(chk,ctx){return chk.write("<script type=\"text/javascript\" src=\"/lib/jquery/dist/jquery.min.js\"></script><script type=\"text/javascript\" src=\"/lib/dustjs-linkedin/dist/dust-full.js\"></script>");}return body_0;})();

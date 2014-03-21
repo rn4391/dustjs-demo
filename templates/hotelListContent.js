@@ -1,0 +1,2 @@
+// hotelListContent.dust
+(function(){dust.register("hotelListContent",body_0);function body_0(chk,ctx){return chk.section(ctx._get(false, ["hotelData"]),ctx,{"block":body_1},null);}function body_1(chk,ctx){return chk.partial("hotelListItem",ctx,null);}return body_0;})();

@@ -1,0 +1,6 @@
+{
+  "name": "dustjs-server-client-example",
+  "dependencies": {
+    "jquery": "~2.1.0"
+  }
+}

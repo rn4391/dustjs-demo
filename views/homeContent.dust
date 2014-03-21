@@ -1,0 +1,11 @@
+<article>
+	<div class="wrapper">
+		<div class="small-box">
+			<p>
+				This is a small POC done to understand how the same dust.js templates can be used for server-side and client-side rendering.
+				If everything is working, then you will see a button below. Click on it to view some hotels in New Delhi.
+			</p>
+			<a class="btn btn-primary" href="/hotel-list">View Hotels</a>
+		</div>
+	</div>
+</article>

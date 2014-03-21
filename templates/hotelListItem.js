@@ -1,0 +1,2 @@
+// hotelListItem.dust
+(function(){dust.register("hotelListItem",body_0);function body_0(chk,ctx){return chk.write("<div class=\"hotel-list-item\"><div class=\"pull-left list-left\"><img src=").reference(ctx._get(false, ["imageUrl"]),ctx,"h").write(" /></div><div class=\"pull-left list-right\"><span class=\"hotel-name\">").reference(ctx._get(false, ["name"]),ctx,"h").write("</span><div class=\"clear\"></div><span class=\"hotel-address\">").reference(ctx._get(false, ["address"]),ctx,"h").write("</span></div><div class=\"clear\"></div></div>");}return body_0;})();
